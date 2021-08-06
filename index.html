@@ -1,12 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cynthia Caroline</title>
 </head>
+
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="profile">
+        <img src="./assets/img/profile_pic.jpg" alt="profile_pic" style="height: auto;width: 100px;" />
+        <h1>Cynthia Caroline</h1>
+        <h4>Komplek Baleendah Permai 3 R/41 Bandung</h4>
+        <h4>Cynthiacc512@gmail.com</h4>
+        <h4>085888201077</h4>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/cynthiacc512/" target="_blank">LinkedIn</a></li>
+            <li><a href="http://www.instagram.com/meecyn1001" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/cynthiacc512/" target="_blank">Github</a></li>
+        </ul>
+        <hr>
+    </section>
+    <section id="about-me">
+        <h1>About Me</h1>
+        <p>a career in Informatics, specifically in the areas of front-end development and data science, that will
+            optimally utilize strong analytics, creativity, and a good layout perspective.</p>
+    </section>
+    <section id="work-experience">
+        <h1>Work Experience</h1>
+        <table>
+            <thead>
+                <th>
+                <td>Company</td>
+                <td>Role</td>
+                <td>Status</td>
+                <td>Period</td>
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frontstep</td>
+                    <td>Front End Developer</td>
+                    <td>Internship</td>
+                    <td>Jun 2021 - Jul 2021</td>
+                </tr>
+                <tr>
+                    <td>Frontstep</td>
+                    <td>UI/UX Designer</td>
+                    <td>Partime</td>
+                    <td>May 2021 - Jul 2021</td>
+                </tr>
+                <tr>
+                    <td>Magika Studio</td>
+                    <td>Junior Content Designer</td>
+                    <td>Partime</td>
+                    <td>Agu 2020 - Apr 2021</td>
+                </tr>
+                <tr>
+                    <td>Dollan</td>
+                    <td>Designer Grafis dan UI/UX Designer</td>
+                    <td>Freelance</td>
+                    <td>Agu 2020 - Sep 2020</td>
+                </tr>
+                <tr>
+                    <td>Self Employed</td>
+                    <td>Freelance UI/UX Designer </td>
+                    <td>Freelance</td>
+                    <td>Jun 2019 - Jun 2020</td>
+                </tr>
+                <tr>
+                    <td>Self Employed</td>
+                    <td>Freelance Front End Web Developer </td>
+                    <td>Freelance</td>
+                    <td>Jun 2019 - Sep 2019</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="education">
+        <h1>Education</h1>
+        <h4>Institut Teknologi Harapan Bangsa</h4>
+        <hr>
+        <h5>Informatics</h5>
+        <h5>2018-2022</h5>
+        <br>
+        <h4>Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</h4>
+        <hr>
+        <h5>Cloud Computing Student</h5>
+        <h5>Feb 2021-Jul 2021</h5>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>SCSS</li>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>Bootstrap</li>
+            <li>React JS</li>
+            <li>Laravel</li>
+            <li>Flutter</li>
+            <li>UI/UX</li>
+            <li>Figma</li>
+        </ol>
+    </section>
+    <section id="contact-me">
+        <h1>Contact Me</h1>
+        <form method="POST" action="#">
+            <label for=fname>Firstname</label><br>
+            <input type=”text” id=fname name=fname placeholder="John"><br />
+            <label for=lname>Lastname</label><br>
+            <input type=”text” id=lname name=lname placeholder="Doe"><br />
+            <label for="region">Region</label><br>
+            <select name="region" id="region">
+                <option value="indonesia">Indonesia</option>
+                <option value="australia">Australia</option>
+                <option value="singapore">Singapore</option>
+                <option value="malaysia">Malaysia</option>
+            </select><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Your Message"></textarea> <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>Cynthia Caroline</p>
+        <a href="mailto:cynthiacc512@gmail.com">Email Me!</a>
+    </footer>
 </body>
+
 </html>
