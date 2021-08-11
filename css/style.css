@@ -47,7 +47,6 @@ nav ul li a:hover {
 
 .about-me {
     position: relative;
-    widows: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
