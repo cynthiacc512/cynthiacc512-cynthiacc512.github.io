@@ -168,7 +168,7 @@
     </section>
     <section class="container" id="contact-me">
       <h1>Contact Me</h1>
-      <form method="POST" action="#">
+      <form method="POST" action="#" id="contact">
         <label class="form-label" for="fname">Firstname</label><br />
         <input type="text" id="fname" name="fname" class="form-control" placeholder="John" /><br />
         <label class="form-label" for="lname">Lastname</label><br />
@@ -185,7 +185,7 @@
           class="form-control"></textarea>
         <br />
         <div class="d-grid gap-2">
-          <button class="btn btn-info" type="button">Submit</button>
+          <button class="btn btn-info" type="button" onclick="sendFormData()">Submit</button>
         </div>
       </form>
     </section>
@@ -194,6 +194,8 @@
       <a href="mailto:cynthiacc512@gmail.com">Email Me!</a>
     </footer>
   </div>
+
+  <script src="js/index.js"></script>
 </body>
 
 </html>
