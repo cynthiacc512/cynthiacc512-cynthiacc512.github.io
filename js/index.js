@@ -66,4 +66,3 @@ sendFormData = () => {
     }
     console.log(data);
 }
-
